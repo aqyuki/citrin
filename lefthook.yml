@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      run: 'pnpm run lint:eslint'
+    prettier:
+      run: 'pnpm run lint:prettier'

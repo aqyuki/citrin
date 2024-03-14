@@ -1,0 +1,41 @@
+{
+  "name": "glass",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "postinstall": "lefthook install",
+    "astro": "astro",
+    "lint": "pnpm run lint:eslint && pnpm run lint:prettier",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check .",
+    "fix": " pnpm run fix:prettier && pnpm run fix:eslint",
+    "fix:eslint": "eslint --fix .",
+    "fix:prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.8",
+    "@astrojs/react": "^3.1.0",
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-astro": "^0.31.4",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "lefthook": "^1.6.5",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-organize-imports": "^3.2.4"
+  },
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
+}
