@@ -1,0 +1,19 @@
+---
+import * as styles from './profile.css'
+import * as fonts from '@/styles/font.css'
+
+const contents: string[] = [
+  '鹿児島高専で学生をしています.',
+  'プログラミングが趣味で',
+  'GoやTypeScriptをメインでつかっています.',
+]
+---
+
+<div class={styles.profileCard}>
+  <h1 class={`${styles.cardTitle} ${fonts.Jost}`}>About Me</h1>
+  {
+    contents.map((content) => (
+      <p class={`${styles.cardContent} ${fonts.NotoSansJP}`}>{content}</p>
+    ))
+  }
+</div>

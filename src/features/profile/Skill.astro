@@ -1,0 +1,19 @@
+---
+import * as styles from './skill.css'
+import * as fonts from '@/styles/font.css'
+import { profileCard, cardTitle } from '@/features/profile/profile.css'
+
+import { Icon } from 'astro-iconify'
+---
+
+<div class={profileCard}>
+  <h1 class={`${cardTitle} ${fonts.Jost}`}>Skills</h1>
+  <div class={styles.skillCard}>
+    <Icon pack="simple-icons" name="go" class={styles.icon} />
+    <Icon name="bxl:typescript" class={styles.icon} />
+    <Icon name="bxl:git" class={styles.icon} />
+    <Icon name="mdi:github" class={styles.icon} />
+    <Icon name="mdi:ubuntu" class={styles.icon} />
+    <Icon name="mdi:docker" class={styles.icon} />
+  </div>
+</div>
