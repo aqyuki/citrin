@@ -13,3 +13,10 @@ export const NotoSansJP = style({
   fontWeight: 400,
   fontStyle: 'normal',
 })
+
+export const NotoSansJPThin = style({
+  fontFamily: 'Noto Sans JP, sans-serif',
+  fontOpticalSizing: 'auto',
+  fontWeight: 300,
+  fontStyle: 'normal',
+})

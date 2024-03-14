@@ -1,10 +1,11 @@
 ---
 import * as styles from './footer.css'
+import * as fonts from '@/styles/font.css'
 import Link from './Link.astro'
 ---
 
 <footer class={styles.footerWrapper}>
-  <div class={styles.content}>
+  <div class={`${styles.content} ${fonts.NotoSansJPThin}`}>
     <p>uwaaa | student developer</p>
     <p>Copyright © 2024 aqyuki All rights reserved.</p>
     <Link />
