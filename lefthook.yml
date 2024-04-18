@@ -2,6 +2,7 @@ pre-commit:
   parallel: true
   commands:
     eslint:
-      run: 'pnpm run lint:eslint'
+      glob: '*.{ts,tsx,astro}'
+      run: pnpm eslint {staged_files}
     prettier:
-      run: 'pnpm run lint:prettier'
+      run: pnpm prettier --check {staged_files}
