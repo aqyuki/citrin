@@ -6,7 +6,7 @@ export const skillCard = style({
   margin: '10px auto',
   placeItems: 'center',
   gridTemplateColumns: 'repeat(3, 1fr)',
-  gap: '10px',
+  gap: '25px',
   '@media': {
     '(min-width:600px)': {
       width: '500px',
@@ -15,6 +15,7 @@ export const skillCard = style({
 })
 
 export const icon = style({
+  margin: '20px',
   width: '45px',
   height: '45px',
 })
