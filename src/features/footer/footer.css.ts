@@ -1,6 +1,7 @@
 import { style } from '@vanilla-extract/css'
 
 export const footerWrapper = style({
+  margin: '5rem 0 5rem',
   display: 'grid',
   gridTemplateColumns: 'repeat(12,1fr)',
   placeItems: 'left',
