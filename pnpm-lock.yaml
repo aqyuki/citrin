@@ -10,7 +10,7 @@ dependencies:
     version: 0.6.0(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
   '@astrojs/react':
     specifier: ^3.1.0
-    version: 3.3.3(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.11)
+    version: 3.3.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.11)
   '@types/react':
     specifier: ^18.2.65
     version: 18.3.1
@@ -22,7 +22,7 @@ dependencies:
     version: 1.15.1
   astro:
     specifier: ^4.5.2
-    version: 4.8.0(typescript@5.4.5)
+    version: 4.8.1(typescript@5.4.5)
   astro-icon:
     specifier: ^1.1.0
     version: 1.1.0
@@ -198,12 +198,12 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@3.3.3(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.11):
-    resolution: {integrity: sha512-ohgxDgmz6YMJBcbHfuMOObDJU+Mnts9oJsc94D9i57OK0Tpi+rcBN5gfDxqSFGenU65MU7ICQQ/FqqPaxNJYKQ==}
+  /@astrojs/react@3.3.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(vite@5.2.11):
+    resolution: {integrity: sha512-azFYckxcMnHcc5kfXW38oNXR3Na+OMFnzimXVBxRJ906tHkO/sBOBXhsmgQ8JGr/4WEjyaz8zKZj76TWjNMCdw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
-      '@types/react': ^17.0.50 || ^18.0.21 || npm:types-react@beta
-      '@types/react-dom': ^17.0.17 || ^18.0.6 || npm:types-react-dom@beta
+      '@types/react': ^17.0.50 || ^18.0.21
+      '@types/react-dom': ^17.0.17 || ^18.0.6
       react: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
     dependencies:
@@ -2137,8 +2137,8 @@ packages:
       - supports-color
     dev: false
 
-  /astro@4.8.0(typescript@5.4.5):
-    resolution: {integrity: sha512-JRGxesSdLPyXfo2E5JhT6jK8LQRlBRDtazNmZk0qEemVWqxijuETym1XPEZUOUA5pUSZUJjv0mYqlJ1RBtLTGA==}
+  /astro@4.8.1(typescript@5.4.5):
+    resolution: {integrity: sha512-m11p7QkROpKbercBSqv99Q+ueN0azsw/SwG67qjxmUXS9jHghc9IYSsZLbwEuR6wH5qHkaeKx8y2rV64mYKOFw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -2192,7 +2192,7 @@ packages:
       prompts: 2.4.2
       rehype: 13.0.1
       resolve: 1.22.8
-      semver: 7.6.1
+      semver: 7.6.2
       shiki: 1.5.1
       string-width: 7.1.0
       strip-ansi: 7.1.0
@@ -5624,8 +5624,8 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /semver@7.6.1:
-    resolution: {integrity: sha512-f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==}
+  /semver@7.6.2:
+    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
     engines: {node: '>=10'}
     hasBin: true
     dev: false
@@ -5659,7 +5659,7 @@ packages:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.3
-      semver: 7.6.1
+      semver: 7.6.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.3
       '@img/sharp-darwin-x64': 0.33.3
@@ -6034,7 +6034,7 @@ packages:
   /typescript-auto-import-cache@0.3.2:
     resolution: {integrity: sha512-+laqe5SFL1vN62FPOOJSUDTZxtgsoOXjneYOXIpx5rQ4UMiN89NAtJLpqLqyebv9fgQ/IMeeTX+mQyRnwvJzvg==}
     dependencies:
-      semver: 7.6.1
+      semver: 7.6.2
     dev: false
 
   /typescript@5.4.5:
@@ -6413,7 +6413,7 @@ packages:
     dependencies:
       '@volar/language-service': 2.2.1
       path-browserify: 1.0.1
-      semver: 7.6.1
+      semver: 7.6.2
       typescript-auto-import-cache: 0.3.2
       vscode-languageserver-textdocument: 1.0.11
       vscode-nls: 5.2.0
