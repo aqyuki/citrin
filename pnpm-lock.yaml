@@ -22,7 +22,7 @@ dependencies:
     version: 1.15.3
   astro:
     specifier: ^4.5.2
-    version: 4.11.2(typescript@5.5.2)
+    version: 4.11.3(typescript@5.5.2)
   astro-icon:
     specifier: ^1.1.0
     version: 1.1.0
@@ -1972,8 +1972,8 @@ packages:
       - supports-color
     dev: false
 
-  /astro@4.11.2(typescript@5.5.2):
-    resolution: {integrity: sha512-8ulWb74qY5VBFhDTjw1KMCMEf+EXOoSBy4QC6J1oHIq5tzMGCVRt3sUPzUxD737HVPb+CxOIbj35skN0w535fw==}
+  /astro@4.11.3(typescript@5.5.2):
+    resolution: {integrity: sha512-SuZbB/71XVn+WqWNCe7XOfHuqhS+k4gj8+A3wluTZQrORGaHUFRn/f8F9Tu5yESQZB1q8UKhahvHwkTV3AdVsg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
