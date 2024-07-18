@@ -41,5 +41,5 @@
     "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-organize-imports": "^4.0.0"
   },
-  "packageManager": "pnpm@8.15.8"
+  "packageManager": "pnpm@8.15.9"
 }
