@@ -10,10 +10,10 @@ dependencies:
     version: 0.9.3(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.2)
   '@astrojs/react':
     specifier: ^3.1.0
-    version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.7)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.6)
+    version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.6)
   '@types/react':
     specifier: ^18.2.65
-    version: 18.3.7
+    version: 18.3.8
   '@types/react-dom':
     specifier: ^18.2.22
     version: 18.3.0
@@ -194,7 +194,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.7)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.6):
+  /@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.6):
     resolution: {integrity: sha512-fK29lYI7zK/KG4ZBy956x4dmauZcZ18osFkuyGa8r3gmmCQa2NZ9XNu9WaVYEUm0j89f4Gii4tbxLoyM8nk2MA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
@@ -203,7 +203,7 @@ packages:
       react: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
     dependencies:
-      '@types/react': 18.3.7
+      '@types/react': 18.3.8
       '@types/react-dom': 18.3.0
       '@vitejs/plugin-react': 4.3.1(vite@5.4.6)
       react: 18.3.1
@@ -1649,11 +1649,11 @@ packages:
   /@types/react-dom@18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.7
+      '@types/react': 18.3.8
     dev: false
 
-  /@types/react@18.3.7:
-    resolution: {integrity: sha512-KUnDCJF5+AiZd8owLIeVHqmW9yM4sqmDVf2JRJiBMFkGvkoZ4/WyV2lL4zVsoinmRS/W3FeEdZLEWFRofnT2FQ==}
+  /@types/react@18.3.8:
+    resolution: {integrity: sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==}
     dependencies:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
