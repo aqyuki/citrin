@@ -10,10 +10,10 @@ dependencies:
     version: 0.9.3(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.2)
   '@astrojs/react':
     specifier: ^3.1.0
-    version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.7)
+    version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.7)
   '@types/react':
     specifier: ^18.2.65
-    version: 18.3.8
+    version: 18.3.9
   '@types/react-dom':
     specifier: ^18.2.22
     version: 18.3.0
@@ -194,7 +194,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.7):
+  /@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(vite@5.4.7):
     resolution: {integrity: sha512-fK29lYI7zK/KG4ZBy956x4dmauZcZ18osFkuyGa8r3gmmCQa2NZ9XNu9WaVYEUm0j89f4Gii4tbxLoyM8nk2MA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
@@ -203,7 +203,7 @@ packages:
       react: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
     dependencies:
-      '@types/react': 18.3.8
+      '@types/react': 18.3.9
       '@types/react-dom': 18.3.0
       '@vitejs/plugin-react': 4.3.1(vite@5.4.7)
       react: 18.3.1
@@ -1514,6 +1514,14 @@ packages:
       undici-types: 6.19.8
     dev: false
 
+  /@types/node@22.6.1:
+    resolution: {integrity: sha512-V48tCfcKb/e6cVUigLAaJDAILdMP0fUW6BidkPK4GpGjXcfbnoHasCZDwz3N3yVt5we2RHm4XTQCpv0KJz9zqw==}
+    requiresBuild: true
+    dependencies:
+      undici-types: 6.19.8
+    dev: false
+    optional: true
+
   /@types/prop-types@15.7.13:
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
     dev: false
@@ -1521,11 +1529,11 @@ packages:
   /@types/react-dom@18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.8
+      '@types/react': 18.3.9
     dev: false
 
-  /@types/react@18.3.8:
-    resolution: {integrity: sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==}
+  /@types/react@18.3.9:
+    resolution: {integrity: sha512-+BpAVyTpJkNWWSSnaLBk6ePpHLOGJKnEQNbINNovPWzvEUyAe3e+/d494QdEh71RekM/qV7lw6jzf1HGrJyAtQ==}
     dependencies:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
@@ -1546,7 +1554,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 22.5.5
+      '@types/node': 22.6.1
     dev: false
     optional: true
 
