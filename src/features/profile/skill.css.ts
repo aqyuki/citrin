@@ -16,6 +16,5 @@ export const skillCard = style({
 
 export const icon = style({
   margin: '20px',
-  width: '45px',
-  height: '45px',
+  width: '3rem',
 })
